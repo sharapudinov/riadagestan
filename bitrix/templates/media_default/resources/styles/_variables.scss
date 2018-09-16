@@ -1,0 +1,201 @@
+//@import "bootstrap/scss/variables";
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$grays: ();
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+
+$colors: ();
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
+
+$primary:       #0098f7;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "darken":     #1f2024
+), $theme-colors);
+// stylelint-enable
+
+$body-bg: #fff;
+$body-color: $gray-900 !default;
+
+$link-hover-decoration: none;
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+$font-size-base: 1rem;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: 1.688rem;
+$h3-font-size: 1.438rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.125rem;
+$h6-font-size: $font-size-base;
+
+$headings-margin-bottom: 0.875rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 1200px
+);
+
+$small-font-size:             80%;
+
+$border-width: 1px;
+$border-color: rgba(0, 0, 0, 0.1);
+$border-color-light: rgba(255, 255, 255, 0.1);
+$border-radius: .125rem;
+
+$transition-base: all .15s;
+
+$line-height-base: 1.625;
+$headings-font-weight: 600;
+$headings-line-height: 1.4;
+
+$input-btn-focus-width:       0;
+$input-btn-focus-color:       rgba(theme-color("primary"), .25);
+$input-btn-focus-box-shadow:  none;
+
+
+// Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+
+$zindex-dropdown:                   1000;
+$zindex-sticky:                     1020;
+$zindex-fixed:                      1030;
+$zindex-modal-backdrop:             1040;
+$zindex-modal:                      1050;
+$zindex-popover:                    1060;
+$zindex-tooltip:                    1070;
+$zindex-overlay:                    1080;
+$zindex-sideaside:                  1090;
+
+// Breadcrumbs
+
+$breadcrumb-padding-y:              0;
+$breadcrumb-padding-x:              0;
+$breadcrumb-item-padding:           .1875rem;
+
+$breadcrumb-margin-bottom:          1.25rem;
+
+$breadcrumb-bg:                     transparent;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-monospace:       "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:            $font-family-sans-serif;
+// stylelint-enable value-keyword-case
+
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-lg:                ($font-size-base * 1.25);
+$font-size-sm:                ($font-size-base * .875);
+
+
+$enable-print-styles:       false;
+
+// FontAwesome
+$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts"; // for referencing Bootstrap CDN font files directly
+
+// Owl Carousel
+$color-base:			theme-color('primary');
+$color-white:			theme-color('white');
+$color-gray:			theme-color('dark');
+$nav-color: 			$color-white;
+$nav-color-hover:		$color-white;
+$nav-font-size: 		14px;
+$nav-rounded: 			3px ;
+$nav-margin: 			5px;
+$nav-padding: 			4px 7px;
+$nav-background: 		$color-gray;
+$nav-background-hover:	$color-base;
+$nav-disabled-opacity: 	0.5;
+$dot-width:				8px;
+$dot-height:			8px;
+$dot-rounded:			30px;
+$dot-margin: 			0 3px;
+$dot-background:		$color-gray;
+$dot-background-active:	$color-base;
+
+// Custom Variables
+$base-margin-xs: 1.25rem;
+$base-margin: 1.875rem;
+$base-padding-xs: 1.25rem;
+$base-padding: 1.875rem;

@@ -1,0 +1,191 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+.news_item1 {
+    width: 678px;
+    float: left;
+    padding-left: 10px;
+}
+
+div.itemHeader span.itemAuthor, div.itemHeader span.itemCategory {
+    float: left;
+    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
+}
+
+div.itemHeader h1.itemTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 110%;
+    padding: 10px 0 4px 0;
+    margin: 0;
+}
+
+div.itemHeader h1.itemTitle span {
+}
+
+div.itemHeader h1.itemTitle span sup {
+    font-size: 12px;
+    color: #CF1919;
+    text-decoration: none;
+}
+
+/* "Featured" presented in superscript */
+div.itemHeader span.itemCategory {
+    float: left;
+    font-size: 12px;
+}
+
+.rtl div.itemHeader span.itemCategory {
+    float: right;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 10px;
+    border-left: 1px solid #ccc;
+    border-right: 0
+}
+
+.itemHeader a {
+    text-decoration: none;
+    color: #0069ad;
+    font: 12px/125% "Tahoma", sans-serif;
+}
+
+.itemHeader a:hover {
+    text-decoration: underline;
+}
+
+.text h1.itemTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 110%;
+    padding: 10px 0 4px 0;
+    margin: 0;
+}
+
+.vozmozhnosti_wrapper {
+    padding: 5px;
+    background: #f5f5f5;
+    height: 20px;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+
+.vozmozhnosti {
+    float: right
+}
+
+.shrift {
+    float: left;
+    width: 140px;
+}
+
+.razmer {
+    float: left;
+}
+
+.minus {
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    background: #BCBCBC;
+    cursor: pointer;
+    margin: 0 5px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    float: left;
+}
+
+.plus {
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    background: #BCBCBC;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    float: left;
+}
+
+a.pechat {
+    padding-left: 10px;
+}
+
+.pikachoose {
+    height: 275px;
+    width: 700px;
+    margin-bottom: 20px;
+    float: left;
+    display: inline-table;
+}
+
+.mimages {
+    width: 340px;
+    float: left;
+    margin-right: 10px;
+}
+
+.mvideo {
+    width: 340px;
+    float: left;
+}
+
+#qaz.text {
+    line-height: 1em;
+}
+
+div.itemContentFooter {
+    display: block;
+    text-align: right;
+    padding: 4px;
+    margin: 16px 0 4px 0;
+    color: #4a4a4a;
+}
+
+div.itemContentFooter {
+    display: block;
+    text-align: right;
+    padding: 0px;
+    margin: 16px 0 4px 0;
+}
+
+span.itemHits {
+    float: left;
+}
+
+span.itemHits {
+    float: left;
+    color: #4a4a4a;
+}
+
+.itemTags li {
+    float: left;
+    margin-left: 0px;
+}
+
+.itemTags a {
+    text-decoration: none;
+    color: #0069ad;
+    font: 12px/125% "Tahoma", sans-serif;
+
+}
+
+.itemTags a:hover {
+    text-decoration: underline;
+}
+
+span.tegi {
+    float: left;
+
+}
+
+h2.other {
+    padding: 10px 0px 10px 0px;
+}
+
+.theme-ref td a {
+    text-decoration: none;
+    color: #0069ad;
+}
+

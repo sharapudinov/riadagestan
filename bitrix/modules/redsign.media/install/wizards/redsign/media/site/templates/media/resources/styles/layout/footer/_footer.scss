@@ -1,0 +1,23 @@
+.l-footer {
+  margin-top: 3.125rem;
+  border-top: 8px solid theme-color("primary");
+  box-shadow: 0 -8px 0 rgba(0,0,0,0.07);
+  background: theme-color('darken');
+  color: gray('200');
+  overflow: hidden;
+  border-radius: $border-radius;
+  font-size: $font-size-sm;
+
+  .card-footer {
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    border: 1px solid $border-color-light;
+    background-color: theme-color('darken') !important;
+  }
+
+  &__bottom {
+      background: #161619;
+      padding: 20px 0;
+      line-height: 32px;
+  }
+}

@@ -1,0 +1,38 @@
+.b-post-comment {
+  border-bottom: 0.0625rem solid $border-color;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  &__content {
+    margin-top: 0.625rem;
+  }
+
+  &__tools {
+    margin-left: 5.625rem;
+    margin-top: 0.625rem;
+  }
+
+  &__tools a {
+    padding: 0 0.625rem;
+    line-height: 1.563rem;
+  }
+}
+
+.b-post-comment-author {
+  &__avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 0.5rem #e0e7f1;
+    border: 0.125rem solid #fff;
+    margin-right: 1.25rem;
+    float: left;
+    max-width: 4.375rem;
+    max-height: 4.375rem;
+  }
+}

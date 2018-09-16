@@ -1,0 +1,46 @@
+.c-arrows {
+  @include clearfix();
+
+  &__left,
+  &__right {
+    border: 0.0625rem solid $border-color;
+    margin-left: 0.3125rem;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1.375rem;
+    display: inline-block;
+    cursor: pointer;
+    border-radius:  0.125rem;
+    float: left;
+  }
+
+  &__left:before,
+  &__right:before {
+    display: inline-block;
+    font: normal normal normal 0.875rem/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &__left:before {
+    content: "\f104";
+  }
+
+  &__right:before {
+    content: "\f105";
+  }
+
+  &__left:not(.is-disabled):hover,
+  &__right:not(.is-disabled):hover {
+    background: theme-color('primary');
+    color: theme-color('light');
+  }
+
+  &__left.is-disabled,
+  &__right.is-disabled {
+    opacity: 0.5;
+    color: gray('500') !important;
+    cursor: default;
+  }
+}

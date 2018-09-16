@@ -1,0 +1,5 @@
+<?
+
+$MESS['ehead'] = "RIA recommends";
+
+?>

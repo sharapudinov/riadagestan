@@ -1,0 +1,103 @@
+@import "../../../../variables";
+// @import "../variables";
+
+@import "materializecss/components/forms/radio-buttons";
+
+/* images */
+.rstuning {
+    .rstuning__option__radio {
+        &.rstuning__option__radio__images,
+        &.rstuning__option__radio__buttons {
+            input + label:before,
+            input + label:after {
+                display: none;
+            }
+
+            input {
+                position: absolute;
+                left: -9999px;
+                opacity: 0;
+
+                &:checked + label {
+                    .rstuning__option__radio-div {
+                        border: $input-border-hover;
+                    }
+                }
+            }
+
+            label {
+                width: 100%;
+                height: auto;
+                padding-left: 0;
+                margin-bottom: 15px;
+
+                .rstuning__option__radio-div {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    border: 1px solid #d2d2d2;
+                    transition: all .3s ease-out;
+                }
+            }
+        }
+
+        &.rstuning__option__radio__images {
+            input {
+                &:hover + label,
+                &:checked + label {
+                    img {
+                        opacity: 1;
+                    }
+                }
+            }
+            label {
+
+                .rstuning__option__radio-div {
+                    padding: 14px 19px;
+                    background-color: #fff;
+                }
+
+                img {
+                    max-width: 100%;
+                    opacity: .5;
+                    transition: all .3s ease-out;
+                }
+            }
+        }
+
+        &__image {
+            margin-top: 5px;
+        }
+
+        &.rstuning__option__radio__buttons {
+            .rstuning__option__alone-radio {
+                display: inline-block;
+                margin-right: 8px;
+            }
+
+            input {
+                &:checked + label {
+                    .rstuning__option__radio-div {
+                        color: #fff;
+                        background-color: #313035;
+                    }
+                }
+
+                & + label {
+                    .rstuning__option__radio-div {
+                        line-height: 38px;
+                        padding: 0px 17px;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+
+        .rstuning__option__alone-radio {
+            input + label {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+        }
+    }
+}

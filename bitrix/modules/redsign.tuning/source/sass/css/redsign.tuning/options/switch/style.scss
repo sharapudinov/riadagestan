@@ -1,0 +1,45 @@
+@import "../../../../variables";
+// @import "../variables";
+
+@import "materializecss/components/forms/switches";
+
+.rstuning {
+    & &__option__switch {
+        label {
+            font-size: 14px;
+
+            input + .lever,
+            input:checked + .lever {
+                margin-left: 13px;
+            }
+        }
+        
+        &-imgmod {
+            margin-bottom: 3px;
+        }
+
+        &-image {
+            display: inline-block;
+            width: 100%;
+            padding: 14px 19px;
+            margin-top: 5px;
+            text-align: center;
+            cursor: default;
+            border: $input-border;
+            background-color: $input-background;
+            transition: all .3s ease-out;
+
+            img {
+                max-width: 100%;
+                opacity: .5;
+                transition: all .3s ease-out;
+            }
+        }
+
+        input:checked + .lever + .rstuning__option__switch-image {
+            img {
+                opacity: 1;
+            }
+        }
+    }
+}

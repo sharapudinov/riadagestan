@@ -1,0 +1,5 @@
+<?
+
+$MESS["title"] = "INFOGRAPHIC";
+
+?>

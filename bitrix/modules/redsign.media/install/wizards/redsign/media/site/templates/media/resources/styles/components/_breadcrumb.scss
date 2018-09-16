@@ -1,0 +1,16 @@
+.breadcrumb {
+  &,
+  a {
+    font-size: 0.8125rem;
+    color: gray('500');
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: theme-color('primary');
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,4 @@
+<?
+$MESS["ARTICLES_TYPE_NAME"] = "Статьи";
+$MESS["ARTICLES_ELEMENT_NAME"] = "Элементы";
+$MESS["ARTICLES_SECTION_NAME"] = "Статья";

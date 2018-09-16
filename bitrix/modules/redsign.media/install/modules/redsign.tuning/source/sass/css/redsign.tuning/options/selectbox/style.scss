@@ -1,0 +1,103 @@
+@import "../../../../variables";
+// @import "../variables";
+
+$selector-selectbox: '.rstuning' !default;
+
+#{$selector-selectbox} {
+    &__selectbox {
+        position: relative;
+
+        input[type="text"] {
+            position: absolute;
+            left: -9999px;
+            opacity: 0;
+        }
+    }
+
+    &__selectbox__select {
+        position: absolute;
+        top: 0;
+        display: inline-block;
+        min-width: 135px;
+
+        &.open {
+            z-index: 5;
+
+            #{$selector-selectbox} {
+                &__selectbox__option {
+                    z-index: 6;
+
+                    &:hover,
+                    &.active {
+                        z-index: 7;
+                    }
+                }
+
+                &__selectbox__arrow {
+                    z-index: 7;
+                }
+            }
+        }
+    }
+
+    &__selectbox__option {
+        position: relative;
+        display: none;
+        cursor: pointer;
+        white-space: nowrap;
+        padding: 0 35px 0 20px;
+        margin-top: -1px;
+        background-color: $input-background;
+        border: $input-border;
+        border-radius: 4px;
+
+        &::first-child {
+            margin-top: 0;
+        }
+    }
+
+    &__selectbox-name {
+        color: $option-name;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 7px;
+    }
+
+    &__selectbox__option,
+    &__selectbox-name {
+        line-height: 38px;
+    }
+
+    &__selectbox__select.open .rstuning__selectbox__option.active,
+    &__selectbox__select:not(.open):hover .rstuning__selectbox__option,
+    &__selectbox__option:hover {
+        border: $input-border-hover;
+    }
+
+    &__selectbox__select.open .rstuning__selectbox__option,
+    &__selectbox__option.active {
+        display: block;
+    }
+
+    &__selectbox__arrow {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        display: block;
+        height: 22px;
+        float: right;
+        cursor: pointer;
+        padding-left: 8px;
+        border-left: $input-border;
+
+        svg {
+            position: relative;
+            bottom: 2px;
+            width: 15px;
+            height: 18px;
+            fill: $svg-color;
+            transform: rotate(90deg);
+        }
+    }
+
+}

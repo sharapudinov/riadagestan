@@ -1,0 +1,164 @@
+#calendarWrapper {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+/* custom events */
+.DynarchCalendar td div.default {
+	background: rgba(125, 255, 20, .4);
+}
+
+.DynarchCalendar td div.party {
+	background: rgba(0, 125, 255, .4);
+}
+
+.DynarchCalendar.DynarchCalendar-td-selected  div.party {
+	background: rgba(0, 125, 255, .9);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+}
+
+.DynarchCalendar .DynarchCalendar-td-selected  div.default {
+	background: rgba(0, 255, 20, .9);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+}
+
+/* rewrite calendar styles */
+.DynarchCalendar a {
+	color: #444;
+}
+
+.DynarchCalendar .DynarchCalendar-day-selected a {
+	color: #fff;
+}
+
+/*calendar wrapper*/
+#eventsCalendar .DynarchCalendar {
+	border-radius: 5px;
+	background: #fff url(images/calendar-bg.gif) repeat-x;
+}
+
+/*date item*/
+#eventsCalendar .DynarchCalendar-day {
+	border-radius: 2px;
+	color: #545454;
+	font-weight: bold;
+	text-align: center;
+
+	/* Internet Explorer */
+	*background: #ffffff;
+	background: #ffffff\0/;
+	/*filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#FFf6f6f6, endColorstr=#FFffffff);*/
+	/* Recent browsers */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#ffffff));
+	background-image: -webkit-linear-gradient(top, #f6f6f6, #ffffff);
+	background-image: -moz-linear-gradient(top, #f6f6f6, #ffffff);
+	background-image: -o-linear-gradient(top, #f6f6f6, #ffffff);
+	background-image: linear-gradient(top, #f6f6f6, #ffffff);
+	background-image: -ms-linear-gradient(top, #f6f6f6 0%, #ffffff 100%);
+}
+
+/*other month date*/
+#eventsCalendar .DynarchCalendar-day-othermonth {
+	border-color: transparent;
+	color: #aaa;
+}
+
+/*current date*/
+#eventsCalendar .DynarchCalendar-day-today {}
+
+/*weekend date*/
+#eventsCalendar .DynarchCalendar-weekend {
+	color: #cc2222;
+}
+
+/*other month weekend date*/
+#eventsCalendar .DynarchCalendar-day-othermonth.DynarchCalendar-weekend {
+	color: rgba(203, 35, 35, 0.38);
+}
+
+/*hover date*/
+#eventsCalendar .DynarchCalendar-hover-date {}
+
+/*other month hover date*/
+#eventsCalendar .DynarchCalendar-day-othermonth.DynarchCalendar-hover-date {
+	border-color: #ccc;
+}
+
+/*selected date*/
+#eventsCalendar .DynarchCalendar-day-selected {
+	border: 1px solid #000;
+}
+
+/*other month selected date*/
+#eventsCalendar .DynarchCalendar-day-othermonth.DynarchCalendar-day-selected {
+	border: 1px solid #ccc;
+}
+
+#eventsCalendar .DynarchCalendar-day.calendarEvent,
+#eventsCalendar .DynarchCalendar-hover-title div,
+#eventsCalendar .DynarchCalendar-pressed-title div,
+#eventsCalendar .DynarchCalendar-hover-bottomBar-today,
+#eventsCalendarTooltip .tooltipBody .dateEvent:hover
+{
+	color: #6482AA;
+	border: 1px solid #6482AA;
+	text-shadow: 0 1px 1px #FFFFFF;
+
+	/* Internet Explorer */
+	*background: #c9e7e9;
+	background: #c9e7e9\0/;
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#FFdaeeed, endColorstr=#FFc9e7e9);
+	/* Recent browsers */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#daeeed), to(#c9e7e9));
+	background-image: -webkit-linear-gradient(top, #daeeed, #c9e7e9);
+	background-image: -moz-linear-gradient(top, #daeeed, #c9e7e9);
+	background-image: -o-linear-gradient(top, #daeeed, #c9e7e9);
+	background-image: linear-gradient(top, #daeeed, #c9e7e9);
+	background-image: -ms-linear-gradient(top, #daeeed 0%, #c9e7e9 100%);
+
+	-webkit-box-shadow: 1px 1px 1px #fff inset;
+	-moz-box-shadow: 1px 1px 1px #fff inset;
+	box-shadow: 1px 1px 1px #fff inset;
+	cursor: pointer;
+}
+
+/*nav buttons*/
+#eventsCalendar .DynarchCalendar-navBtn div {
+	border-color: #aaa;
+	border-radius: 50%;
+}
+
+/*title*/
+#eventsCalendar .DynarchCalendar-title div {
+	border-radius: 0 0 7px 7px;
+}
+
+/*today hover link*/
+#eventsCalendar .DynarchCalendar-hover-bottomBar-today {
+	border-radius: 2px;
+}
+
+#eventsCalendar .DynarchCalendar-menu {
+	border-radius: 5px;
+	/* Internet Explorer */
+	*background: #ccc;
+	background: #ccc\0/;
+	/* Recent browsers */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+	background-image: -webkit-linear-gradient(top, #fff, #ccc);
+	background-image: -moz-linear-gradient(top, #fff, #ccc);
+	background-image: -o-linear-gradient(top, #fff,	#ccc);
+	background-image: linear-gradient(top, #fff, #ccc);
+	background-image: -ms-linear-gradient(top, #fff 0%, #ccc 100%);
+}
+
+#eventsCalendarTooltip {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+}

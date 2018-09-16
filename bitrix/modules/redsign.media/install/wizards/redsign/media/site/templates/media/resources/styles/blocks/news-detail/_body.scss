@@ -1,0 +1,35 @@
+.b-news-detail-body {
+  @include clearfix;
+
+  &__picture,
+  &__video {
+    margin-bottom: 1.875rem;
+  }
+
+  &__video {
+    width: 100%;
+    position: relative;
+    padding: 56% 0 0;
+    height: 0;
+  }
+
+  &__video iframe {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .b-news-detail-body {
+    .float-left,
+    .float-right {
+      float: none !important;
+    }
+  }
+}

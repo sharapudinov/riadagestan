@@ -1,0 +1,79 @@
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import '../../../../resources/styles/variables';
+@import '../../../../resources/styles/snippets/menu-item';
+
+.b-head-social {
+  position: relative;
+  display: inline-block;
+
+  &__title {
+    @extend %menu-link;
+    font-size: $small-font-size;
+    font-weight: normal;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    .fa {
+      margin-right: 8px;
+      min-width: 10px;
+    }
+  }
+
+  &:hover &__title {
+    color: theme-color("primary");
+  }
+
+  &__group {
+    line-height: 2.188rem;
+    position: absolute;
+    display: none;
+    width: 150px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.2);
+    right: 0;
+    background-color: $body-bg;
+    z-index: $zindex-dropdown;
+  }
+
+  &__item {
+    display: block;
+    border: solid rgba(0, 0, 0, 0.08);
+    border-width: 1px 0 0;
+    color: theme-color("dark");
+    font-size: $small-font-size;
+    transition: color 0.3s, background 0.3s;
+  }
+
+  &__item:first-child {
+    // border-top-width: 0px;
+  }
+
+  &__item:hover {
+    text-decoration: none;
+    background: theme-color("primary");
+    color: theme-color("light");
+  }
+
+  &__item .fa {
+    width: 30px;
+    text-align: center;
+  }
+
+  &__item--vk:hover {
+    background-color: #4c75a3;
+  }
+  &__item--fb:hover {
+    background-color: #3b5999;
+  }
+  &__item--gp:hover {
+    background-color: #dd4b39;
+  }
+  &__item--in:hover {
+    background-color: #e4405f;
+  }
+  &__item--tw:hover {
+    background-color: #55acee;
+  }
+}

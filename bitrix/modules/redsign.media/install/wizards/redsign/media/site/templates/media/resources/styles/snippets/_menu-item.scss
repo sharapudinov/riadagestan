@@ -1,0 +1,27 @@
+
+%menu-link {
+  display: inline-block;
+  padding: 0 0.4375rem;
+  font-size: $small-font-size;
+  color: theme-color("dark");
+  transition: 0s;
+  font-weight: 600;
+  //line-height: 4.875rem;
+  //height: 4.875rem;
+  white-space: nowrap;
+  vertical-align: top;
+
+  &:hover {
+    color: theme-color("primary");
+  }
+
+  .is-sticky & {
+    //line-height: 3.75rem;
+    //height: 3.75rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+  }
+}

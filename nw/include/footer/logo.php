@@ -1,0 +1,1 @@
+<img src="/nw/include/footer/logo.png">

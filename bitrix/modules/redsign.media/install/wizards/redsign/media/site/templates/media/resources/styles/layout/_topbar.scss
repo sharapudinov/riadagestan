@@ -1,0 +1,30 @@
+.l-topbar {
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+  line-height: 2.188rem;
+  border: 0.0625rem solid $border-color;
+  border-width: 0.0625rem 0;
+  margin-top: -0.0625rem;
+  color: #2c2f34;
+  margin-bottom: 1.875rem;
+
+  &__container {
+    @include make-container();
+    @include make-container-max-widths();
+
+    display: flex;
+  }
+
+  &__left {
+    flex: 1 0 6.25rem;
+  }
+
+  &__right {
+    flex-grow: 0;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 0.9375rem;
+  }
+}

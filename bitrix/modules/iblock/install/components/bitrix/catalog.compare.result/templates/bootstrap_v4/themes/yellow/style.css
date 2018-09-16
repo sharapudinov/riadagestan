@@ -1,0 +1,11 @@
+.bx-yellow.catalog-compare .catalog-compare-filter {
+	background: #f3ebb6;
+	border: 7px solid #fbf7db;
+}
+
+.bx-yellow.catalog-compare {
+	--primary: #f4b236;
+	--theme-color-primary: #f4b236;
+	--theme-color-second: #f7c95e;
+	--theme-color-light: #f9d857;
+}

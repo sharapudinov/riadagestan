@@ -1,0 +1,7 @@
+@mixin base-padding($padding-xs: $base-padding-xs, $padding: $base-padding) {
+  padding: $padding;
+
+  @include media-breakpoint-down(sm) {
+    padding: $padding-xs;
+  }
+}

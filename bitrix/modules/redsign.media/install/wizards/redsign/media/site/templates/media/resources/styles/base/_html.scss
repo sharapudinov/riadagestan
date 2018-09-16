@@ -1,0 +1,8 @@
+html.no-scroll {
+  position: relative;
+  overflow: hidden;
+
+  body {
+    overflow-y: scroll;
+  }
+}

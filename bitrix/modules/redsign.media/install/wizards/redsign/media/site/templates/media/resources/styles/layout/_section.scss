@@ -1,0 +1,151 @@
+.l-section {
+  margin-bottom: $base-margin;
+  //margin-bottom: 30px;
+  background: $body-bg;
+  position: relative;
+  border: 0.0625rem solid $border-color;
+  border-radius: $border-radius;
+  @include base-padding;
+
+  &--attached {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  &--attached + & {
+    margin-top: -1px;
+  }
+
+  &__head {
+    margin-bottom: $base-margin;
+    min-height: 2.5rem;
+    position: relative;
+    border-bottom: 0.125rem solid $border-color;
+    color: theme-color('primary');
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__head:after {
+    content: "";
+    background: currentColor;
+    width: 2.5rem;
+    height: 0.125rem;
+    position: absolute;
+    bottom: -0.125rem;
+    left: 0;
+  }
+
+  // &__head:before {
+  //   content: "";
+  //   width: 0;
+  //   height: 0;
+  //   position: absolute;
+  //   bottom: -0.3125rem;
+  //   left: 0;
+  //   border-left: 0;
+  //   border-right: 0.3125rem solid transparent;
+  //   border-top: 0.3125rem solid currentColor;
+  // }
+
+  &__title {
+    font-size: 1.125rem;
+    margin: 0;
+    color: inherit;
+    margin-right: auto;
+  }
+
+  &__items.is-loading {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+
+  &__loader {
+    display: none;
+  }
+
+  &__items.is-loading + &__loader {
+    display: block;
+  }
+
+  &__bottom {
+    margin: $base-margin (-($base-margin)) (-$base-margin);
+    padding: 1.25rem 0;
+    background-color: #fafafa;
+  }
+
+  &__more {
+    margin: $base-margin (-($base-margin+0.063)) (-$base-margin);
+    border-top: 0.0625rem solid $border-color;
+  }
+
+  &__more .btn {
+    font-size: $font-size-sm;
+    color: $body-color;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 0.8125rem 0;
+    transition: $transition-base;
+    font-weight: 600;
+    height: 3.125rem;
+    position: relative;
+
+    &,
+    &:hover,
+    &:not([disabled]):not(.disabled):active,
+    &:not([disabled]):not(.disabled).active, {
+      background-color: transparent;
+      box-shadow: none;
+      border-color: transparent;
+    }
+
+    &:hover,
+    &:not([disabled]):not(.disabled):active,
+    &:not([disabled]):not(.disabled).active, {
+      color: theme-color('primary');
+    }
+
+    &.is-loading > span {
+      visibility: hidden;
+    }
+
+    &.is-loading:after {
+      content: "";
+      visibility: visible;
+      position: absolute;
+      margin: auto;
+      width: 1.875rem;
+      height: 1.875rem;
+      top: 0.4375rem;
+      left: 0;
+      right: 0;
+      display: block;
+      border: 0.125rem solid transparent;
+      border-top: 0.1875rem solid theme-color('primary');
+      border-radius: 100%;
+      animation: spin 1s infinite linear;
+    }
+  }
+
+  .pagination {
+    margin-bottom: 0;
+    margin-top: $base-margin;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .l-section {
+    margin-bottom: $base-margin-xs;
+
+    &__bottom {
+      margin: $base-margin-xs (-$base-margin-xs) (-$base-margin-xs);
+    }
+
+    &__more {
+      margin: $base-margin-xs (-$base-margin-xs) (-$base-margin-xs);
+      font-size: $font-size-sm;
+    }
+  }
+}

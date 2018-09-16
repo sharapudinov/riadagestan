@@ -1,0 +1,33 @@
+@import "../../../../resources/styles/functions";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import '../../../../resources/styles/variables';
+
+.b-subscription {
+  .form-group {
+    min-height: 45px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  label {
+    font-weight: 400;
+  }
+
+  &__btns {
+    margin-top: 15px;
+  }
+
+  &__padleft {
+    margin-top: 12px;
+    padding-left: 30px;
+  }
+
+  &__rubric {
+    margin-bottom: 20px;
+  }
+
+  .required {
+    color: theme-color('danger');
+    font-weight: 400;
+  }
+}

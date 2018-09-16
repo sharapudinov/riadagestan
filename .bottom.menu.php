@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Партнеры", 
+		"/about/partners/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Работа в РИА", 
+		"/about/projects/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/about/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рекламодателям", 
+		"/about/advertisers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пресс-службам", 
+		"/about/information/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Авторские права", 
+		"/about/copyright/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Об агентстве", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

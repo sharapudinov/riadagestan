@@ -1,0 +1,9 @@
+.progress-reading {
+  position: fixed;
+  bottom: 0px;
+  width: 0px;
+  background: theme-color('primary');
+  box-shadow: 0 0 10px rgba(theme-color('primary'), 0.7);
+  z-index: 999;
+  height: 4px;
+}

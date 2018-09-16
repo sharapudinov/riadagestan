@@ -1,0 +1,53 @@
+// @import "node_modules/bootstrap/scss/functions";
+// @import 'resources/styles/variables';
+// @import 'resources/styles/bootstrap';
+// @import "node_modules/font-awesome/scss/font-awesome";
+// @import 'resources/styles/icons';
+//
+// @import 'resources/styles/mixins/base';
+// @import 'resources/styles/base/base';
+// @import 'resources/styles/components/base';
+// @import 'resources/styles/layout/base';
+// @import 'resources/styles/blocks/base';
+//
+// /* Owl */
+// @import 'resources/styles/vendor/OwlCarousel/core';
+// @import 'resources/styles/vendor/OwlCarousel/animate';
+// @import 'resources/styles/vendor/OwlCarousel/autoheight';
+// @import 'resources/styles/vendor/OwlCarousel/lazyload';
+// @import 'resources/styles/vendor/OwlCarousel/video';
+// @import 'resources/styles/vendor/OwlCarousel/theme';
+//
+//
+// .float-left {
+//   float: left;
+//   margin: 0.375em 1.75em 1em 0;
+// }
+//
+// .float-right {
+//   float: right;
+//   margin: 0.375em 0 1em 1.75em;
+// }
+//
+// .news-blockquote {
+//   color: theme-color('primary');
+//   font-size: 1.75rem;
+//   line-height: 2.375rem;
+// }
+//
+// @include media-breakpoint-down(sm) {
+//   .float-left,
+//   .float-right {
+//     float: none !important;
+//     margin: auto;
+//     text-align: center;
+//     display: block;
+//   }
+//
+//   .news-blockquote.float-left,
+//   .news-blockquote.float-right {
+//     text-align: left;
+//     margin: 1.25rem 0;
+//   }
+//
+// }

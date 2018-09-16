@@ -1,0 +1,115 @@
+/* native tooltip */
+.DynarchCalendar .DynarchCalendar-tooltip {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	background-color: #fff;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: left;
+	display: none;
+}
+
+.DynarchCalendar .DynarchCalendar-tooltip p {
+	padding: 0;
+	margin: 0;
+}
+
+.DynarchCalendar .DynarchCalendar-tooltip h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.DynarchCalendar .DynarchCalendar-tooltip .dateEvent {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #999;
+}
+
+.DynarchCalendar .DynarchCalendar-tooltip .dateEvent a {
+	color: #444;
+}
+
+.DynarchCalendar .DynarchCalendar-tooltip {
+	border-radius: 2px;
+}
+
+/* tooltip widget */
+#eventsCalendarTooltip {
+	text-align: left;
+	position: absolute;
+	width: 260px;
+	display: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, .3);
+	z-index: 100;
+	color: #fff;
+	overflow: visible;
+}
+
+#eventsCalendarTooltip .arrow {
+	position: absolute;
+	top: 7px;
+	left: -18px;
+	width: 20px;
+	height: 38px;
+	background: url(img/tooltip_arrow.png) left top no-repeat;
+	z-index: 105;
+}
+
+#eventsCalendarTooltip .tooltipBody {
+	position: relative;
+	padding: 17px;
+}
+
+#eventsCalendarTooltip .tooltipBody .eventHeader {
+	font-size: 1.3em;
+	font-weight: normal;
+	display: block;
+}
+
+#eventsCalendarTooltip .dateRange {
+	margin: 5px 0 0;
+	color: #777;
+	display: block;
+}
+
+#eventsCalendarTooltip .tooltipBody .dateEvent {
+	display: block;
+	margin-top: 10px;
+	border: 1px solid transparent;
+	text-decoration: none;
+	padding: 10px;
+	color: #444;
+	border-top: 1px solid #ccc;
+}
+
+#eventsCalendarTooltip .tooltipBody .dateEvent:first-child {
+	margin-top: 0;
+	border-top: 1px solid transparent;
+}
+
+#eventsCalendarTooltip .tooltipBody .dateEvent:hover {
+	border-radius: 3px;
+	border-top: 1px solid #6482AA;
+}
+
+
+#eventsCalendarTooltip .tooltipBody .dateEvent a {
+	color: #fff;
+}
+
+#eventsCalendarTooltip .tooltipBody .dateEvent .dateRange {
+	font-size: 11px;
+}
+
+#eventsCalendarTooltip .close {
+	color: #999;
+	text-decoration: none;
+	position: absolute;
+	right: 5px;
+	top: 3px;
+	font-size: 16px;
+}

@@ -1,0 +1,10 @@
+<table border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+															<td><div id="vote_119_0" class="star-active star-voted" title="1" onmouseover="voteScript.trace_vote(this, true);" onmouseout="voteScript.trace_vote(this, false)" onclick="voteScript.do_vote(this, 'vote_119', {'SESSION_PARAMS':'9ff7f5bb82f362330a10d975e12532d2','PAGE_PARAMS':{'ELEMENT_ID':'119'},'sessid':'41d0a6c9d5f7dca501702dd199c72298','AJAX_CALL':'Y'})"></div></td>
+																<td><div id="vote_119_1" class="star-active star-voted" title="2" onmouseover="voteScript.trace_vote(this, true);" onmouseout="voteScript.trace_vote(this, false)" onclick="voteScript.do_vote(this, 'vote_119', {'SESSION_PARAMS':'9ff7f5bb82f362330a10d975e12532d2','PAGE_PARAMS':{'ELEMENT_ID':'119'},'sessid':'41d0a6c9d5f7dca501702dd199c72298','AJAX_CALL':'Y'})"></div></td>
+																<td><div id="vote_119_2" class="star-active star-voted" title="3" onmouseover="voteScript.trace_vote(this, true);" onmouseout="voteScript.trace_vote(this, false)" onclick="voteScript.do_vote(this, 'vote_119', {'SESSION_PARAMS':'9ff7f5bb82f362330a10d975e12532d2','PAGE_PARAMS':{'ELEMENT_ID':'119'},'sessid':'41d0a6c9d5f7dca501702dd199c72298','AJAX_CALL':'Y'})"></div></td>
+																<td><div id="vote_119_3" class="star-active star-empty" title="4" onmouseover="voteScript.trace_vote(this, true);" onmouseout="voteScript.trace_vote(this, false)" onclick="voteScript.do_vote(this, 'vote_119', {'SESSION_PARAMS':'9ff7f5bb82f362330a10d975e12532d2','PAGE_PARAMS':{'ELEMENT_ID':'119'},'sessid':'41d0a6c9d5f7dca501702dd199c72298','AJAX_CALL':'Y'})"></div></td>
+																<td><div id="vote_119_4" class="star-active star-empty" title="5" onmouseover="voteScript.trace_vote(this, true);" onmouseout="voteScript.trace_vote(this, false)" onclick="voteScript.do_vote(this, 'vote_119', {'SESSION_PARAMS':'9ff7f5bb82f362330a10d975e12532d2','PAGE_PARAMS':{'ELEMENT_ID':'119'},'sessid':'41d0a6c9d5f7dca501702dd199c72298','AJAX_CALL':'Y'})"></div></td>
+													<td class="vote-result"><div id="wait_vote_119">(Голосов: 3, Рейтинг: 3.25)</div></td>
+		</tr>
+</tbody></table>

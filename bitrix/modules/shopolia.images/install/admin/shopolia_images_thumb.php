@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/shopolia.images/admin/shopolia_images_thumb.php");?>

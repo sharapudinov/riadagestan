@@ -1,0 +1,26 @@
+<?php
+$MESS['RS_SOCIALS_COLLECTIONS'] = 'Яндекс.Коллекции';
+$MESS['RS_SOCIALS_VK'] = 'ВКонтакте';
+$MESS['RS_SOCIALS_FACEBOOK'] = 'Facebook';
+$MESS['RS_SOCIALS_OK'] = 'Одноклассники';
+$MESS['RS_SOCIALS_MOIMIR'] = 'МойМир';
+$MESS['RS_SOCIALS_GPLUS'] = 'Google+';
+$MESS['RS_SOCIALS_TWITTER'] = 'Twitter';
+$MESS['RS_SOCIALS_BLOGGER'] = 'Blogger';
+$MESS['RS_SOCIALS_DELICIOUS'] = 'Delicious';
+$MESS['RS_SOCIALS_DIGG'] = 'Digg';
+$MESS['RS_SOCIALS_REDDIT'] = 'Reddit';
+$MESS['RS_SOCIALS_EVERNOTE'] = 'Evernote';
+$MESS['RS_SOCIALS_LINKEDING'] = 'LinkedIn';
+$MESS['RS_SOCIALS_LJ'] = 'Livejournal';
+$MESS['RS_SOCIALS_POCKET'] = 'Pocket';
+$MESS['RS_SOCIALS_QZONE'] = 'Qzone';
+$MESS['RS_SOCIALS_RENREN'] = 'Renren';
+$MESS['RS_SOCIALS_SW'] = 'Sina Weibo';
+$MESS['RS_SOCIALS_SURFINGBIRD'] = 'Surfingbird';
+$MESS['RS_SOCIALS_TW'] = 'Tencent Weibo';
+$MESS['RS_SOCIALS_TUMBLR'] = 'Tumblr';
+$MESS['RS_SOCIALS_VIBER'] = 'Viber';
+$MESS['RS_SOCIALS_WHATSAPP'] = 'WhatsApp';
+$MESS['RS_SOCIALS_SKYPE'] = 'Skype';
+$MESS['RS_SOCIALS_TELEGRAM'] = 'Telegram';

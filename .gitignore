@@ -1,0 +1,30 @@
+# files
+.DS_Store
+Thumbs.db
+*.sql
+/.idea/*
+
+# core
+/upload/*
+/vrtest/*
+/bitrix/activities/*
+/bitrix/stack_cache/*
+/bitrix/admin/*
+/bitrix/backup/*
+/bitrix/gadgets/*
+/bitrix/images/*
+/bitrix/fonts/*
+/bitrix/image_uploader/*
+/bitrix/sounds/*
+/bitrix/themes/*
+/bitrix/tmp/*
+/bitrix/wizards/*
+/bitrix/cache/*
+/bitrix/managed_cache/*
+/bitrix/html_pages/*
+*.png
+*.jpg
+/ym/*
+log.txt
+*.log*
+*.dat

@@ -1,0 +1,12 @@
+@import "../../../../variables";
+// @import "../variables";
+
+.rstuning {
+    & &__option__title {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 300;
+        color: $option-title-color;
+        margin: 0 0 14px;
+    }
+}

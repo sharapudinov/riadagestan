@@ -1,0 +1,45 @@
+.l-page {
+
+  &__top {
+    //border: $border-color 1px solid;
+    //border-radius: $border-radius;
+
+    //@include base-padding;
+  }
+
+  &.has-container {
+    @include make-container-max-widths();
+  }
+
+  &.has-container &__top + &__content {
+    border-top: 0;
+    margin-top: -0.125rem;
+  }
+
+  &.has-sidebar {
+    @include make-container();
+  }
+
+  &.has-sidebar &__row {
+    @include make-row();
+    // justify-content: flex-start;
+    //align-items: flex-start;
+  }
+
+  &.has-sidebar &__main,
+  &.has-sidebar &__sidebar {
+    @include make-col-ready();
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .l-page {
+    &.has-sidebar &__main {
+      @include make-col(8);
+    }
+    &.has-sidebar &__sidebar {
+      @include make-col(4);
+    }
+
+  }
+}

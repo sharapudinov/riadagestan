@@ -1,0 +1,25 @@
+@import "../../../../resources/styles/functions";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import '../../../../resources/styles/variables';
+@import "../../../../node_modules/bootstrap/scss/variables";
+
+.mobile-nav {
+  list-style: none;
+  position: relative;
+  padding: 0;
+}
+
+.mobile-nav-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  &__link {
+    display: block;
+    padding: 15px 50px 15px 0;
+    font-weight: 600;
+    color: $white;
+  }
+  &__link:hover {
+    opacity: 0.7;
+    color: $white;
+    text-decoration: none;
+  }
+}

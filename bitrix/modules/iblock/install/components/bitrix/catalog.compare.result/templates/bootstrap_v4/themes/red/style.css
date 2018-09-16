@@ -1,0 +1,11 @@
+.bx-red.catalog-compare .catalog-compare-filter {
+	background: #f3dcd9;
+	border: 7px solid #fdf1ef;
+}
+
+.bx-red.catalog-compare {
+	--primary: #E22B2B;
+	--theme-color-primary: #E22B2B;
+	--theme-color-second: #e95c5c;
+	--theme-color-light: #F0F0F0;
+}

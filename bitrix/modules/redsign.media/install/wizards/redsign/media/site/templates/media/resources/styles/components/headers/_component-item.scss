@@ -1,0 +1,9 @@
+@import '../../snippets/menu-item';
+
+.c-component-item {
+  @extend %menu-link;
+  min-width: 1.875rem;
+  text-align: center;
+  font-size: 0.875rem;
+  vertical-align: middle;
+}

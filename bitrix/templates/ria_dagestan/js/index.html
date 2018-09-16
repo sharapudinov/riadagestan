@@ -1,0 +1,995 @@
+<!DOCTYPE html> <!-- НОВЫЙ DOCTYPE -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<script type="text/javascript" src="fancybox/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/ipad.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/template_styles.css"/>
+<link rel="stylesheet" href="css/menu.css" type="text/css" />
+<link href="css/powerSlide.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="css/powerSlide_theme.css" rel="stylesheet" type="text/css" media="screen"/>
+
+  
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+		});
+	</script>
+
+
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<style type="text/css">
+			.clear {
+				zoom: 1;
+				display: block;
+			}
+</style>
+<![endif]-->
+
+</head>
+<body>
+	
+<div class="all">
+
+	<header>  	
+		
+		<div class="date-header">
+			<script language="javascript" type="text/javascript"><!--
+				var d = new Date();
+
+				var day=new Array("Воскресенье","Понедельник","Вторник",
+				"Среда","Четверг","Пятница","Суббота");
+
+				var month=new Array("января","февраля","марта","апреля","мая","июня",
+				"июля","августа","сентября","октября","ноября","декабря");
+
+				document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
+				+ " " + d.getFullYear() + " г.");
+			</script>
+		</div>	
+		
+		<div class="soc-seti">
+			<a href="#"><div class="facebook"></div></a>
+			<a href=""><div class="twitter"></div></a>
+			<a href=""><div class="vk"></div></a>
+			<a href=""><div class="ok"></div></a>
+			<a href=""><div class="google"></div></a>
+			<a href=""><div class="livej"></div></a>
+			<a href=""><div class="mail-soc"></div>	</a>
+		</div>
+		
+		<div style="clear:both;float;none;"></div>	
+		<div class="poisk">
+			<a href=""><div class="dosput"></div></a>
+			<form action="" method="post" id="search-block-form">
+			  <div class="form-item">
+				<input type="text" name="" value="" size="15" maxlength="128" placeholder="Поиск по сайту" x-webkit-speech="" speech="" autocomplete="off">
+			  </div>
+			  <div class="form-actions">
+				<input type="submit" id="edit-submit" name="op" value="" class="form-submit">
+			  </div>
+			</form>
+		</div>
+		
+		<div style="clear:both;float;none;"></div>			
+		<div class="logotip"><a href="/"><img src="img/logotip.png"/></a></div>
+		<div class="slogan"><p>Республиканское<br/>Информационное<br/>Агентство</p></div>
+		
+		<div class="header-img"><img src="img/header-img.jpg"/></div>
+		
+	</header>	
+
+	<div style="clear:both;float;none;"></div>	
+	
+	<nav id="menu-wrap">    
+	<ul id="menu">
+		<li><a href="" id="aktiv" >Главная</a></li>
+
+		<li>
+			<a href="">Политика</a>
+			<ul>
+				<li>
+					<a href="">Президент</a>				
+				</li>
+				<li>
+					<a href="">Правительство</a>			
+				</li>
+
+				<li>
+					<a href="">Народное собрание</a>			
+				</li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="" >Экономика</a>
+			<ul>
+				<li>
+					<a href="">Новости компаний</a>				
+				</li>
+				<li>
+					<a href="">Банки и деньги</a>			
+				</li>
+
+				<li>
+					<a href="">Туризм</a>			
+				</li>
+				<li>
+					<a href="">События</a>				
+				</li>
+				<li>
+					<a href="">Документы</a>				
+				</li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="">Общество</a>
+			<ul>
+				<li>
+					<a href="">Образование</a>				
+				</li>
+				<li>
+					<a href="">Наука</a>			
+				</li>
+
+				<li>
+					<a href="">Здравоохранение</a>			
+				</li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="">События</a>
+			<ul>
+				<li>
+					<a href="">В Дагестане</a>				
+				</li>
+				<li>
+					<a href="">В России</a>			
+				</li>
+
+				<li>
+					<a href="">В Мире</a>			
+				</li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="">Проишествия</a>
+			<ul>
+				<li>
+					<a href="">Криминал</a>				
+				</li>
+				<li>
+					<a href="">Расследования и суды</a>			
+				</li>
+
+				<li>
+					<a href="">Бедствия и катастрофы</a>			
+				</li>
+				
+				<li>
+					<a href="">Безопасность</a>			
+				</li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="" >Обзоры</a>
+			<ul>
+				<li>
+					<a href="">Статьи</a>				
+				</li>
+				<li>
+					<a href="">Аналитика</a>			
+				</li>
+
+				<li>
+					<a href="">Общественный контроль</a>			
+				</li>
+				
+				<li>
+					<a href="">В блогах</a>			
+				</li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="">Спорт</a>
+			<ul>
+				<li>
+					<a href="">ФК Анжи</a>				
+				</li>
+				<li>
+					<a href="">Развитие спорта</a>			
+				</li>
+
+				<li>
+					<a href="">Соревнование</a>			
+				</li>
+			</ul>
+		</li>
+		
+		<li>
+			<a href="">Культура</a>
+			<ul>
+				<li>
+					<a href="">Искусство</a>				
+				</li>
+				<li>
+					<a href="">Кино</a>			
+				</li>
+
+				<li>
+					<a href="">Шоу-бизнес</a>			
+				</li>
+			</ul>
+		</li>
+		
+	</ul>
+</nav>
+		
+		<div class="line"></div>	
+		
+		
+
+
+	<div class="main"> 
+
+		
+		<div class="top">
+				<div class="left">
+					
+					<div class="glav_novosti">
+						<div class="zagolovok_fon"><h2 class="zagolovok_text">Главные новости</h2></div>
+							<ul class="b-side-col__layout">
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								
+							</ul>
+						
+					</div>
+					
+					
+					<div class="zagolovok_fon"><h2 class="zagolovok_text">Архив</h2></div>
+					<div class="calendar">
+						<h1>календарь</h1>
+					</div>
+					
+					<div class="banner_left"><a href=""><img src="img/banner.jpg"/></a></div>
+					
+					<div class="interviy">
+						<div class="zagolovok_fon"><h2 class="zagolovok_text">Интервью</h2></div>
+						<ul class="b-side-col__layout">
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								<li class="b-side-col__anons-item"><a href=""><img src="img/1.jpg" alt="" width="80" height="80" border="0"></a>
+								<span>9 апреля 2013 года 09:39</span><p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ </a></p>
+								</li>
+								
+								
+							</ul>
+					</div>
+					
+					
+				</div>
+				
+				
+				<div class="center">
+				
+					<div id="slider">
+						<img src="img/img1.jpg" title="Деньги, которые на дороге не валялись"/>
+						<img src="img/img2.jpg" title="Самое разрушительное землетрясение в Новой Зеландии за 80 лет" />
+						<img src="img/img3.jpg" title="Путин усложнил банкротство госпредприятий" />
+					</div>
+					
+					<div class="lenta_novostey">
+					
+						<div class="zagolovok_fon"><h2 class="zagolovok_text">Лента новостей</h2></div>
+						<ul class="b-mid-col__layout">
+							
+							<li>
+								<div class="mid-layout__buttons"></div>
+								<span>9 апреля 2013 года 12:56</span><br><a href="">«Анжи»  опроверг слухи об интересе к Беленову</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span>
+								</div>
+								<span>9 апреля 2013 года 12:40</span><br><a href="">В Национальной библиотеке Казахстана состоится литературно-музыкальный вечер с участием поклонников творчества Расула Гамзатова</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>	
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons"></div>
+								<span>9 апреля 2013 года 12:56</span><br><a href="">«Анжи»  опроверг слухи об интересе к Беленову</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span>
+								</div>
+								<span>9 апреля 2013 года 12:40</span><br><a href="">В Национальной библиотеке Казахстана состоится литературно-музыкальный вечер с участием поклонников творчества Расула Гамзатова</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>	
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							<li>
+								<div class="mid-layout__buttons"></div>
+								<span>9 апреля 2013 года 12:56</span><br><a href="">«Анжи»  опроверг слухи об интересе к Беленову</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span>
+								</div>
+								<span>9 апреля 2013 года 12:40</span><br><a href="">В Национальной библиотеке Казахстана состоится литературно-музыкальный вечер с участием поклонников творчества Расула Гамзатова</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>	
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons"></div>
+								<span>9 апреля 2013 года 12:56</span><br><a href="">«Анжи»  опроверг слухи об интересе к Беленову</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span>
+								</div>
+								<span>9 апреля 2013 года 12:40</span><br><a href="">В Национальной библиотеке Казахстана состоится литературно-музыкальный вечер с участием поклонников творчества Расула Гамзатова</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>	
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons"></div>
+								<span>9 апреля 2013 года 12:56</span><br><a href="">«Анжи»  опроверг слухи об интересе к Беленову</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span>
+								</div>
+								<span>9 апреля 2013 года 12:40</span><br><a href="">В Национальной библиотеке Казахстана состоится литературно-музыкальный вечер с участием поклонников творчества Расула Гамзатова</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>	
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							<li>
+								<div class="mid-layout__buttons"></div>
+								<span>9 апреля 2013 года 12:56</span><br><a href="">«Анжи»  опроверг слухи об интересе к Беленову</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span>
+								</div>
+								<span>9 апреля 2013 года 12:40</span><br><a href="">В Национальной библиотеке Казахстана состоится литературно-музыкальный вечер с участием поклонников творчества Расула Гамзатова</a>
+							</li>
+
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>	
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля</a>
+							</li>
+							
+							<li>
+								<div class="mid-layout__buttons">
+								<span class="b-mid-col__photo"></span><span class="b-mid-col__video"></span>
+								</div>
+								<span>9 апреля 2013 года 11:45</span><br><a href="">Ансамбль «Дагестан» побывал в резиденции президента Турции Абдуллаха Гюля1</a>
+							</li>
+							
+							
+						</ul>
+						
+						<ul class="pages">
+							<li><a href="">→</a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">→</a></li>
+						</ul>
+						
+						
+					</div>
+					
+					
+					
+					<div class="right">
+						<div class="banner_right_top"><a href=""><img src="img/banner.jpg"/></a></div>
+						
+						<div class="analitika">
+							<div class="zagolovok_fon"><h2 class="zagolovok_text">Аналитика</h2></div>
+							
+							<div class="other-analitika">
+								<p><a href="#"><img src="img/foto.jpg"> </a>
+								<span>26 марта  2013  10:30</span><br/>
+								<a href="#"><p class="line-height">политика — общее руководство для действий и принятия решений, которое облегчает достижение целей.</p></a></p>
+							</div>
+							
+							<div class="other-analitika">
+								<p><a href="#"><img src="img/foto.jpg"> </a>
+								<span>26 марта  2013  10:30</span><br/>
+								<a href="#"><p class="line-height">политика — общее руководство для действий и принятия решений, которое облегчает достижение целей.</p></a></p>
+							</div>
+							
+							<div class="other-analitika">
+								<p><a href="#"><img src="img/foto.jpg"> </a>
+								<span>26 марта  2013  10:30</span><br/>
+								<a href="#"><p class="line-height">политика — общее руководство для действий и принятия решений, которое облегчает достижение целей.</p></a></p>
+							</div>
+							
+							<div class="other-analitika">
+								<p><a href="#"><img src="img/foto.jpg"> </a>
+								<span>26 марта  2013  10:30</span><br/>
+								<a href="#"><p class="line-height">политика — общее руководство для действий и принятия решений, которое облегчает достижение целей.</p></a></p>
+							</div>
+							
+							<div class="other-analitika">
+								<p><a href="#"><img src="img/foto.jpg"> </a>
+								<span>26 марта  2013  10:30</span><br/>
+								<a href="#"><p class="line-height">политика — общее руководство для действий и принятия решений, которое облегчает достижение целей.</p></a></p>
+							</div>
+							
+						</div>
+						
+						<div class="ria_video">
+							<div class="zagolovok_fon"><h2 class="zagolovok_text">РИА видео</h2></div>
+							<p>Политика &mdash; общее руководство для действий и принятия решений, которое облегчает достижение целей.</p>
+							<iframe width="285" height="195" src="http://www.youtube.com/embed/45G0egeyK20" frameborder="0" allowfullscreen=""></iframe> 
+							<br />
+							<a class="vse" href="">все видео</a> 
+						</div>
+						
+						<div style="clear: both;"></div>
+						
+						<div class="banner_zona">
+							<div class="banner_top"><a href=""><img src="img/banner.jpg"/></a></div>
+							
+							<div class="banner_bottom">
+								<div class="banner"><a href=""><img src="img/president_site_banner.gif"/></a></div>
+								<div class="banner"><a href=""><img src="img/banner-nsrd.jpg"/></a></div>
+								<div class="banner"><a href=""><img src="img/banner_192_110_1.jpg"/></a></div>
+								<div class="banner"><a href=""><img src="img/banner_192_110_1.jpg"/></a></div>
+							</div>
+						</div>
+						
+						<div class="info_block">
+							<h1>погода, валюта</h1>
+						</div>
+						
+					</div>
+				
+				</div>
+		
+		</div>
+		
+		<div style="clear:both;float;none;"></div>	
+		
+		
+		<div class="bottom">
+
+				<div class="foto-reportazh">
+					<div class="zagolovok_fon"><h2 class="zagolovok_text">Фоторепортаж</h2></div>
+					
+					
+					<div class="foto-rep">
+						<a href=""><img src="img/foto.jpg"> <br>
+						<p class="line-height">Фото репортаж 4</p></a>
+					</div>
+					<div class="foto-rep">
+						<a href=""><img src="img/foto.jpg"> <br>
+						<p class="line-height">Фото репортаж 3</p></a>
+					</div>
+					<div class="foto-rep">
+						<a href=""><img src="img/foto.jpg"> <br>
+						<p class="line-height">Фото репортаж 2</p></a>
+					</div>
+					<div class="foto-rep">
+						<a href=""><img src="img/foto.jpg"> <br>
+						<p class="line-height">Фото репортаж 1</p></a>
+					</div>
+				</div>
+				
+				<div style="clear:both;float;none;"></div>	
+				
+				<div class="temi_i_opros">
+					
+					<div class="temi">
+						<div class="zagolovok_fon"><h2 class="zagolovok_text">Темы</h2> <div class="vse_temi"><a href="">все</a></div> <div class="moi_obnovleniya"><a href="">Мои обновления</a></div></div>
+							
+							<div class="tema">
+								<div class="tema_foto"><a href=""><img src="img/foto.jpg"></a> 
+								<div class="vspl"><p>конфликт двух корей</p></div> 
+								</div>
+								<span>9 апреля 2013 года 09:39</span>
+								<p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ.
+								В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ</a></p>
+								<div class="more"><p>Ещё в рубрике <a href="">В мире</a></p></div>
+							</div>
+							
+							<div class="tema">
+								<div class="tema_foto"><a href=""><img src="img/foto.jpg"></a> 
+								<div class="vspl"><p>конфликт двух корей</p></div> 
+								</div>
+								<span>9 апреля 2013 года 09:39</span><a class="pometka" href="">тема</a>
+								<p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ.
+								В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ</a></p>
+								<div class="more"><p>Ещё в рубрике <a href="">В мире</a></p></div>
+							</div>
+							
+							<div class="tema">
+								<div class="tema_foto"><a href=""><img src="img/foto.jpg"></a> 
+								<div class="vspl"><p>конфликт двух корей</p></div> 
+								</div>
+								<span>9 апреля 2013 года 09:39</span><a class="pometka" href="">тема</a>
+								<p><a href="">В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ.
+								В Правительстве Дагестана обсудили проблемы задолженности за потребленную электроэнергию и природный газ</a></p>
+								<div class="more"><p>Ещё в рубрике <a href="">В мире</a></p></div>
+							</div>
+					
+					</div>
+					
+					
+					
+					<div class="opros">
+						<div class="zagolovok_fon"><h2 class="zagolovok_text">Опрос</h2></div>
+							<p class="vopros">Какое событие недели кажется вам самым значимым</p>
+							<form action="/polls/69/?res=1" method="post">
+								<div><input type="radio" id="" class="check" name="variant" value="">
+								<label for=""><p class="variant">Обострение ситуации на Корейском полуострове</p></label>
+								</div>
+								<div><input type="radio" id="" class="check" name="variant" value="">
+								<label for=""><p class="variant">Скандал с усыновленными российскими детьми с США</p></label>
+								</div>
+								<div><input type="radio" id="" class="check" name="variant" value="">
+								<label for=""><p class="variant">Акция по проблемам аутизма Light it up blue</p></label>
+								</div>
+								<div><input type="radio" id="" class="check" name="variant" value="">
+								<label for=""><p class="variant">Введение новой системы проездных в Москве</p></label>
+								</div>
+								<div><input type="radio" id="" class="check" name="variant" value="">
+								<label for=""><p class="variant">Пожар в высотке «Грозный-сити»</p></label>
+								</div>
+								<div><input type="radio" id="" class="check" name="variant" value="">
+								<label for=""><p class="variant">Выставка чучела «Упоротого лиса» в Петербурге</p></label>
+								</div>
+								<br/>
+							   <input name="send" type="submit" value="Голосовать" class="btn">
+							</form>
+						
+						<div class="niz">
+							<div class="komment"><a href="">Комментировать</a></div>
+							<div class="vse_oprosi"><a href="">Все опросы</a></div>
+						</div>
+						
+					</div>
+				</div>
+		
+		
+		
+			<div style="clear:both;float;none;"></div>	
+		
+		
+					<div class="big_banner"><a href=""><img src="img/big_banner.jpg"></a> </div>
+					<div class="afisha"><h1>афиша</h1></div>
+		
+				<div class="infografika">
+						<div class="zagolovok_fon"><h2 class="zagolovok_text">Инфографика</h2></div>
+						
+						<div class="grafik">
+							<p class="line-height">Диаграмма Спивака: новый метод анализа эффект<br/>
+							<a class="fancybox" href="img/foto.jpg" data-fancybox-group="gallery"><img src="img/foto.jpg" alt="" /></a>
+							</p>	
+						</div>
+						<div class="grafik">
+							<p class="line-height">Диаграмма Спивака: новый метод анализа эффект<br/>
+							<a class="fancybox" href="img/foto.jpg" data-fancybox-group="gallery"><img src="img/foto.jpg" alt="" /></a>
+							</p>	
+						</div>
+						<div class="grafik">
+							<p class="line-height">Диаграмма Спивака: новый метод анализа эффект<br/>
+							<a class="fancybox" href="img/foto.jpg" data-fancybox-group="gallery"><img src="img/foto.jpg" alt="" /></a>
+							</p>
+						</div>
+						<div class="grafik">
+							<p class="line-height">Диаграмма Спивака: новый метод анализа эффект<br/>
+							<a class="fancybox" href="img/foto.jpg" data-fancybox-group="gallery"><img src="img/foto.jpg" alt="" /></a>
+							</p>	
+						</div>
+				</div>
+		 
+
+								 
+				<div style="clear: both;"></div>
+								 
+
+		 
+				<div class="vidzhet">
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+					<div class="vidzhet-block"><a href=""><img src="img/foto.jpg"></a></div>
+				</div>
+  
+
+		</div>
+ 
+    
+	
+	</div>
+ 
+    
+   
+
+ 
+
+
+ 
+
+ 
+
+
+		<div style="clear:both;float;none;"></div>	
+ 			 			 
+		
+		<footer> 
+		
+			<nav class="footer-menu">
+					<ul class="footer-menu-ul">
+						<li><a href="/news/culture/" class="root-item">Культура</a></li>	
+						<li><a href="/news/reviews/" class="root-item">Обзоры</a></li>	
+						<li><a href="/news/society/" class="root-item">Общество</a></li>	
+						<li><a href="/news/politics/" class="root-item">Политика</a></li>	
+						<li><a href="/news/incidents/" class="root-item">Происшествия</a></li>	
+						<li><a href="/news/events/" class="root-item">События</a></li>	
+						<li><a href="/news/sports/" class="root-item">Спорт</a></li>	
+						<li><a href="/news/economy/" class="root-item">Экономика</a></li>
+					</ul>
+			</nav>
+
+			
+			<p class="copyright"><a href="http://color-it.ru/">Разработано Color-IT 2013</a></p>
+			<br/>
+		</footer>
+
+		
+	</div>
+	
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	<script type="text/javascript">
+		//<![CDATA[
+			window.addEvent('domready',function(){
+						var	limits = $(document.body);
+				items_v = [], items_h = [];
+
+				$$('div.submenu').each(function (el) {
+					if (el.getParent().getParent().hasClass('level-0')) {
+						items_v.push(el);
+					} else {
+						items_h.push(el);
+					}
+				});
+
+				new SPMenu(items_v, {
+					direction: 'LTR',
+					bound: limits,
+					fxOptions: {
+						transition: Fx.Transitions.linear,
+						duration: 300			},
+					animation: 'slidefade',
+					mode: 'vertical',
+					offset:{x:0, y: 0}
+				});
+
+				new SPMenu(items_h, {
+					direction: 'LTR',
+					bound: limits,
+					fxOptions: {
+						transition: Fx.Transitions.linear,
+						duration: 300			},
+					animation: 'slidefade',
+					mode: 'horizontal',
+					offset: {x: -10, y: 5}
+				});
+			});
+		//]]>
+		</script>
+
+  
+<script type="text/javascript" src="js/powerSlide.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+</script>	
+</body>
+</html>	

@@ -1,0 +1,11 @@
+%close-icon {
+  padding: 0.3125rem;
+  color: $white;
+  font-size: 1.25rem;
+  transition: $transition-base;
+  line-height: 1;
+
+  &:hover {
+    color: $red;
+  }
+}

@@ -1,0 +1,124 @@
+.b-share-socials {
+  margin: 1.25rem 0;
+  text-align: center;
+
+  &--full {
+    // padding: 1.25rem 0;
+  }
+
+  &--no-margin {
+    margin: 0px;
+  }
+
+  .ya-share2__container_size_m .ya-share2__icon {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color: theme-color('light');
+    border-radius: $border-radius;
+    background-size: 1.875rem;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--full .ya-share2__container_size_m .ya-share2__icon {
+    width: 1.875rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    background-size: 1.3rem;
+  }
+
+  .ya-share2__container_size_m .ya-share2__item,
+  .ya-share2__list_direction_horizontal > .ya-share2__item {
+    margin: 2px;
+  }
+
+  .ya-share2__title {
+    margin-left: -0.125rem !important;
+    line-height: 2.5rem !important;
+    position: relative;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    color: theme-color('light');
+    border-bottom-right-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    overflow: hidden;
+
+    &:hover {
+      color: theme-color('light');
+    }
+  }
+
+  &--full .ya-share2__title {
+    line-height: 1.875rem !important;
+    height: 1.875rem;
+    font-size: 0.625rem;
+  }
+
+  .ya-share2__link {
+    display: inline-flex;
+    align-items: stretch;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .ya-share2__title:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: -0.5rem;
+    height: 1rem;
+    left: 1px;
+    top: 50%;
+    position: absolute;
+    width: 1px;
+  }
+
+  .ya-share2__item_service_collections .ya-share2__title {  background-color: #eb1c00;  }
+  .ya-share2__item_service_vkontakte .ya-share2__title {  background-color: #48729e; }
+  .ya-share2__item_service_facebook .ya-share2__title { background-color: #3b5998; }
+  .ya-share2__item_service_odnoklassniki .ya-share2__title {  background-color: #eb722e;  }
+  .ya-share2__item_service_moimir .ya-share2__title {  background-color: #168de2;  }
+  .ya-share2__item_service_gplus .ya-share2__title {  background-color: #dc4e41;  }
+  .ya-share2__item_service_pinterest .ya-share2__title {  background-color: #c20724;  }
+  .ya-share2__item_service_twitter .ya-share2__title {  background-color: #00aced;  }
+  .ya-share2__item_service_blogger .ya-share2__title {  background-color: #fb8f3d;  }
+  .ya-share2__item_service_delicious .ya-share2__title {  background-color: #31a9ff;  }
+  .ya-share2__item_service_digg .ya-share2__title {  background-color: #000;  }
+  .ya-share2__item_service_reddit .ya-share2__title {   background-color: #ff4500;  }
+  .ya-share2__item_service_evernote .ya-share2__title {  background-color: #24d666;  }
+  .ya-share2__item_service_linkedin .ya-share2__title {  background-color: #0083be;  }
+  .ya-share2__item_service_lj .ya-share2__title {  background-color: #0d425a;  }
+  .ya-share2__item_service_pocket .ya-share2__title {  background-color: #ee4056;  }
+  .ya-share2__item_service_qzone .ya-share2__title {  background-color: #f5b53c;  }
+  .ya-share2__item_service_renren .ya-share2__title {  background-color: #1760a7; }
+  .ya-share2__item_service_surfingbird .ya-share2__title {  background: #30baff;  }
+  .ya-share2__item_service_tencentWeibo .ya-share2__title {  background-color: #53a9d7;  }
+  .ya-share2__item_service_tumblr .ya-share2__title {  background-color: #547093;  }
+  .ya-share2__item_service_viber .ya-share2__title {  background: #7b519d;  }
+  .ya-share2__item_service_whatsapp .ya-share2__title {  background-color: #65bc54;  }
+  .ya-share2__item_service_skype .ya-share2__title {  background-color: #00aff0;  }
+  .ya-share2__item_service_telegram .ya-share2__title {  background-color: #64a9dc;  }
+}
+
+@include media-breakpoint-up(sm) {
+  .b-share-socials {
+    &:not(&--full) .ya-share2__item:first-child .ya-share2__title {
+      display: inline-block !important;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .b-share-socials {
+    &:not(&--outer-section) .ya-share2__item:nth-child(2) .ya-share2__title {
+      display: inline-block !important;
+    }
+
+    &--full .ya-share2__title {
+      display: inline-block !important;
+    }
+  }
+}
