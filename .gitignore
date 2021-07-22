@@ -9,6 +9,7 @@ Thumbs.db
 /vrtest/*
 /bitrix/activities/*
 /bitrix/modules/*
+/bitrix/components
 /bitrix/stack_cache/*
 /bitrix/admin/*
 /bitrix/backup/*
